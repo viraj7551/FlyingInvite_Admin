@@ -1,0 +1,196 @@
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #88D66C;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+	margin-left: 83px;
+}
+
+
+.navbar {
+	margin: 0px;
+	position: fixed;
+	background-color: #4C7B4F;
+	width: 100%;
+	padding: 10px;
+	display: flex;
+}
+
+.brand-name {
+	color: white;
+}
+
+.grey-qo-regular {
+	font-family: "Grey Qo", cursive;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 50px;
+}
+
+.menu-items {
+	width: 199px;
+	margin-left: 950px;
+}
+
+.menu-items>ul>li {
+	display: inline-block;
+	color: white;
+	padding: 10px;
+}
+
+.menu-items>ul>li>a {
+	margin-left: 2px;
+	display: flex;
+	padding: 10px;
+	border: 1px solid white;
+}
+
+.menu-items>ul>li>a>h3 {
+	display: inline-block;
+	font-size: 20px;
+	padding: 5px;
+	margin-left: 5px;
+}
+.nav-sub-list {
+	margin: 83px 0px 0px -160px;
+	display: none;
+}
+
+.nav-sub-list>ul{
+    list-style: none;
+}
+.nav-sub-list>ul>li {
+	padding: 15px;
+}
+
+.profile-icon {
+	width: 35px;
+	background-color: white;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+
+section{
+    position: absolute;
+    margin: 150px 340px;
+}
+
+.container{
+    display: flex;
+}
+
+.container-section1{
+	background-color:#F0F0F0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    display: inline;
+    margin-left: 20px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.container-section1 > ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container-cube{
+    padding: 40px;
+}
+
+.section-filter-container {
+	margin: 25px 80px 25px 80px;
+	padding: 40px;
+	background-color: #F0F0F0;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.add_credentials_container {
+	width: 100%;
+}
+
+.inputfield {
+	margin: 20px 10px 30px 1px;
+	display: flex;
+}
+
+.inputfield > input{
+	padding: 10px;
+	margin-left: 5px;
+}
+
+.formSubmit>input {
+	width: 100%;
+	padding: 15px;
+	border-radius: 10px;
+	border-style: none;
+	font-size: 14px;
+	background-color: #75A47F;
+	color: white;
+}
+
+.formSubmit>input:hover {
+	cursor: pointer;
+    background-color: #508D69;
+}
+
+.lbl{
+	margin-left: 10px;
+}
+
+.end{
+	margin-left: 59px;
+}
+
+.form_heading{
+	display: flex;
+}
+
+span > a{
+	display: inline;
+	margin-left: 195px;
+	font-size: 21px;
+	color: rgb(0, 115, 255);
+	font-size:16px;
+}
+
+.container-cube > span{
+	color: black;
+}
+
+.professsion{
+	margin-left: 88px;
+}
+
+.form_bride_info{
+	margin-left: 80px;
+}
+
+.lblbrf{
+    margin-left: 10px;
+}
+
+.lblbrl{
+    margin-left: 45px;
+}
+
+.lblin{
+    margin-left: 69px;
+}
+
+.lblt{
+    margin-left: 2px;
+}
+
+
